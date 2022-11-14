@@ -1,13 +1,14 @@
 # Timezone Select Form Builder
 
-This is a helper function that creates a select menu including timezones in human-readable format. Each underlying key is the php-friendly name for the timezone, making it easy to immediately store and use them. The array of timezones and their underlying keys were taken from the repository by [tamaspap](https://github.com/tamaspap/timezones).
+
+This is a copy of https://github.com/camroncade/timezone,  helper function that creates a select menu including timezones in human-readable format. Each underlying key is the php-friendly name for the timezone, making it easy to immediately store and use them. The array of timezones and their underlying keys were taken from the repository by [tamaspap](https://github.com/tamaspap/timezones).
 
 ## Installation
 
 Recommended installation of this package is through composer. Include the following in your project's `composer.json` file:
 
     "require": {
-    	"camroncade/timezone": "0.1"
+    	"abnergalvez/timezone": "0.1"
     }
 
 Next, update Composer from the Terminal:
